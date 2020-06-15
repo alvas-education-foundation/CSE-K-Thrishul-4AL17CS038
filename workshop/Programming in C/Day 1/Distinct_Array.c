@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n,i,j;
+    int n,i,j,count=0;
     printf("Enter the Array Size :\n");
     scanf("%d",&n);
     int *a=(int*)malloc(n*sizeof(int));
@@ -19,7 +19,11 @@ int main()
                 break;
         }
         if (i == j)
+        {
             printf("%d ", a[i]);
+            count++;
+        }
+        printf("\nNumber of Distict Element is : %d", count);
     }
     return 0;
 }
