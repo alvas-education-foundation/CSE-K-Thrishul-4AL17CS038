@@ -1,8 +1,7 @@
 # Write a C program to count distinct elements in an array.
-<br>
 ## Algorithm to print distinct numbers in an array
 <br>
-### Steps :
+<b>Steps :</b>
 <br>
 <b>1:</b> Start.<br>
 <b>2:</b> Declare and input the array elements.<br>
